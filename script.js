@@ -189,12 +189,12 @@ document.addEventListener('DOMContentLoaded', () => {
         editEmailEl.value = c.email;
 
         // CSS uses .modal.show for visibility
-        editModal.classList.add('show');
+        editModal.classList.add('active');
     }
 
     function closeEditModal() {
         editingContactName = null;
-        editModal.classList.remove('show');
+        editModal.classList.remove('active');
     }
 
     // -------------------- event handlers ---------------
